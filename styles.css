@@ -56,13 +56,13 @@ table{
     background-color: antiquewhite;
     border:2px solid black;
     border-radius:4px;
-    box-shadow: 5px 7px 14px -4px rgba(0,0,0,0.75); 
-    margin:50px;
+    box-shadow: 5px 7px 14px -4px rgba(0,0,0,0.75);
+    margin: 15px;
 
-    display:flex;
+    /* display:flex;
     justify-content: center;
     align-items: center;    
-    width:max-content;
+    width:max-content; */
 }
 #output2 {
     padding:15px;
@@ -70,17 +70,36 @@ table{
     border:2px solid black;
     border-radius:4px;
     box-shadow: 5px 7px 14px -4px rgba(0,0,0,0.75); 
-    margin:50px;
+    margin: 15px;
 
-    display:flex;
+    /* display:flex;
     justify-content: center;
     align-items: center;    
-    width:max-content;
+    width:max-content; */
 }
 
 #flex {
-    display:flex;
+    display:flex;   
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    position: relative;
+    flex-direction: column;
 }
+
+a:hover {
+    color: red;
+    text-decoration-color: black;
+    box-shadow: 5px 7px 14px -4px rgba(0,0,0,0.75) ;
+}
+
+a {
+    color:black;
+    text-decoration-color: red;
+}
+
+#credits {
+    text-align:right ;
+    margin-right:50px;
+    margin-bottom:-45px;
+}
+
